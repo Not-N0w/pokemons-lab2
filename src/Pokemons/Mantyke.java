@@ -1,7 +1,9 @@
 package Pokemons;
 
-import Pokemons.abilities.AerialAce;
 import Pokemons.abilities.Confide;
+import Pokemons.abilities.Headbutt;
+import Pokemons.abilities.Haze;
+
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
@@ -10,12 +12,12 @@ public class Mantyke extends Pokemon {
         super("Mantyke", 1);
         this.setStats(45,20,50,60,120,50);
         this.setType(Type.WATER, Type.FLYING);
-        this.setMove(new AerialAce());
+        this.setMove(new Confide(), new Headbutt(), new Haze());
     }
-    public Mantyke(String var1, int var2) {
-        super(var1, var2);
+    public Mantyke(String name, int level) {
+        super(name, level);
         this.setStats(45,20,50,60,120,50);
         this.setType(Type.WATER, Type.FLYING);
-        this.setMove(new AerialAce(), new Confide());
+        this.setMove(new Confide(), new Headbutt(), new Haze());
     }
 }

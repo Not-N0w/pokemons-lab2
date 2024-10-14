@@ -7,8 +7,6 @@ import Pokemons.abilities.Growth;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
-
-
 public class Maractus extends Pokemon {
     public Maractus() {
         super("Maractus", 1);
@@ -16,8 +14,8 @@ public class Maractus extends Pokemon {
         this.setType(Type.GRASS);
         this.setMove(new AerialAce(), new EnergyBall(), new CottonSpore(), new Growth());
     }
-    public Maractus(String var1, int var2) {
-        super(var1, var2);
+    public Maractus(String name, int level) {
+        super(name, level);
         this.setStats(75, 86, 67, 106, 67, 60);
         this.setType(Type.GRASS);
         this.setMove(new AerialAce(), new EnergyBall(), new CottonSpore(), new Growth());

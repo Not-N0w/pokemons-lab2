@@ -7,7 +7,7 @@ import ru.ifmo.se.pokemon.Type;
 
 public class CottonSpore extends StatusMove{
     public CottonSpore() {
-        super(Type.GRASS, 0, 1);
+        super(Type.GRASS, 0, 100);
     }
 
     @Override
@@ -17,6 +17,6 @@ public class CottonSpore extends StatusMove{
 
     @Override
     protected void applyOppEffects(Pokemon pokemon) {
-        pokemon.setMod(Stat.SPEED, -2); // (WTF) speed -> infinity
+        pokemon.setMod(Stat.SPEED, -2);
     }
 }

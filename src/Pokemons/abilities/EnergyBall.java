@@ -7,7 +7,7 @@ import ru.ifmo.se.pokemon.Type;
 
 public class EnergyBall extends SpecialMove {
     public EnergyBall() {
-        super(Type.GRASS, 90, 1);
+        super(Type.GRASS, 90, 100);
     }
 
     @Override

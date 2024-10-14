@@ -7,7 +7,7 @@ import ru.ifmo.se.pokemon.Type;
 
 public class Growth extends StatusMove {
     public Growth() {
-        super(Type.NORMAL, 0, 1);
+        super(Type.NORMAL, 0, 100);
     }
 
     @Override
