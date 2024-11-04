@@ -1,4 +1,4 @@
-package Pokemons.abilities;
+package abilities;
 
 import ru.ifmo.se.pokemon.Effect;
 import ru.ifmo.se.pokemon.Pokemon;
@@ -7,7 +7,7 @@ import ru.ifmo.se.pokemon.Type;
 
 public class Hypnosis extends StatusMove {
     public Hypnosis() {
-        super(Type.FLYING, 0, 60);
+        super(Type.PSYCHIC, 0, 60);
     }
 
     @Override

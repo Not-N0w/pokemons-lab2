@@ -1,8 +1,8 @@
 package Pokemons;
 
-import Pokemons.abilities.DazzlingGleam;
-import Pokemons.abilities.DreamEater;
-import Pokemons.abilities.Hypnosis;
+import abilities.DazzlingGleam;
+import abilities.DreamEater;
+import abilities.Hypnosis;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

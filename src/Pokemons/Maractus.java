@@ -1,9 +1,9 @@
 package Pokemons;
 
-import Pokemons.abilities.AerialAce;
-import Pokemons.abilities.CottonSpore;
-import Pokemons.abilities.EnergyBall;
-import Pokemons.abilities.Growth;
+import abilities.AerialAce;
+import abilities.CottonSpore;
+import abilities.EnergyBall;
+import abilities.Growth;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

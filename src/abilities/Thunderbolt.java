@@ -1,4 +1,4 @@
-package Pokemons.abilities;
+package abilities;
 
 import ru.ifmo.se.pokemon.Effect;
 import ru.ifmo.se.pokemon.Pokemon;
@@ -7,7 +7,7 @@ import ru.ifmo.se.pokemon.Type;
 
 public class Thunderbolt extends SpecialMove{
     public Thunderbolt() {
-        super(Type.GRASS, 90, 100);
+        super(Type.ELECTRIC, 90, 100);
     }
 
     @Override

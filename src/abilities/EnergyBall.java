@@ -1,4 +1,4 @@
-package Pokemons.abilities;
+package abilities;
 
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.SpecialMove;

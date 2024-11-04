@@ -1,9 +1,8 @@
 package Pokemons;
 
-import Pokemons.abilities.Confide;
-import Pokemons.abilities.Headbutt;
-import Pokemons.abilities.Haze;
-
+import abilities.Confide;
+import abilities.Haze;
+import abilities.Headbutt;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 

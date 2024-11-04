@@ -1,4 +1,4 @@
-package Pokemons.abilities;
+package abilities;
 
 
 import ru.ifmo.se.pokemon.Type;
@@ -18,7 +18,7 @@ public class Headbutt extends PhysicalMove{
 
     @Override
     protected void applyOppEffects(Pokemon pokemon) {
-        if(Math.random() <= 0.3) { //if the target has not yet moved
+        if(Math.random() <= 0.3) {
             Effect.flinch(pokemon);
         }
     }

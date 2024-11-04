@@ -1,9 +1,9 @@
 package Pokemons;
 
-import Pokemons.abilities.DazzlingGleam;
-import Pokemons.abilities.DreamEater;
-import Pokemons.abilities.Hypnosis;
-import Pokemons.abilities.Thunderbolt;
+import abilities.DazzlingGleam;
+import abilities.DreamEater;
+import abilities.Hypnosis;
+import abilities.Thunderbolt;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
