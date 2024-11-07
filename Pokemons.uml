@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/YAROSLAV/Desktop/prog/lab2/Pokemons</OriginalElement>
+  <nodes>
+    <node x="641.4128632249424" y="231.31663088797774">abilities.CottonSpore</node>
+    <node x="1343.653207662227" y="273.6823141088831">abilities.Hypnosis</node>
+    <node x="1341.8126031492925" y="603.0695576435118">pokemons.Gallade</node>
+    <node x="1446.286790644395" y="453.7418736471598">abilities.Thunderbolt</node>
+    <node x="331.4286116357476" y="210.2857348446469">abilities.Headbutt</node>
+    <node x="1297.1961167329955" y="484.0245882514409">pokemons.Kirlia</node>
+    <node x="1195.1707515506982" y="371.37682071610044">pokemons.Ralts</node>
+    <node x="1058.8144094024647" y="77.49145542732529">abilities.DreamEater</node>
+    <node x="178.47962516353067" y="721.5585408218591">App</node>
+    <node x="-82.79828492193161" y="341.6773131216911">abilities.Haze</node>
+    <node x="248.50999481587667" y="385.5212690053396">abilities.BulletSeed</node>
+    <node x="22.24064959543327" y="167.7452980501324">abilities.Confide</node>
+    <node x="467.8632631338924" y="401.2977716892184">abilities.AerialAce</node>
+    <node x="975.308379387093" y="554.7262412095092">abilities.EnergyBall</node>
+    <node x="702.7446164710182" y="509.0712627918364">pokemons.Maractus</node>
+    <node x="167.86347368073967" y="622.0828549901713">pokemons.Mantine</node>
+    <node x="884.8154082097523" y="382.1847546709812">abilities.Growth</node>
+    <node x="87.00279577883128" y="529.265881298183">pokemons.Mantyke</node>
+    <node x="1430.2398765595165" y="-13.107269955380268">abilities.DazzlingGleam</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="pokemons.Maractus" target="abilities.AerialAce" relationship="CREATE">
+      <point x="0.0" y="-14.0" />
+      <point x="763.7446164710182" y="432.7977716892184" />
+      <point x="76.5" y="0.0" />
+    </edge>
+    <edge source="pokemons.Maractus" target="abilities.Growth" relationship="CREATE">
+      <point x="60.99999999999994" y="6.453325459604571" />
+      <point x="1009.3154082097523" y="529.524588251441" />
+      <point x="0.0" y="43.5" />
+    </edge>
+    <edge source="pokemons.Gallade" target="abilities.Thunderbolt" relationship="CREATE">
+      <point x="54.0" y="0.0" />
+      <point x="1570.786790644395" y="617.0695576435118" />
+      <point x="0.0" y="43.49999999999994" />
+    </edge>
+    <edge source="App" target="pokemons.Mantyke" relationship="CREATE">
+      <point x="-82.0" y="0.0" />
+      <point x="115.50299999999999" y="753.0585408218591" />
+      <point x="-29.9997957788313" y="14.0" />
+    </edge>
+    <edge source="pokemons.Ralts" target="abilities.DazzlingGleam" relationship="CREATE">
+      <point x="13.329248449301872" y="14.00017928389957" />
+      <point x="1252.5" y="548.0" />
+      <point x="1417.696" y="548.0" />
+      <point x="1417.696" y="431.877" />
+      <point x="1614.74" y="431.877" />
+      <point x="1614.74" y="18.393" />
+      <point x="83.50012344048355" y="2.699553802685273E-4" />
+    </edge>
+    <edge source="pokemons.Gallade" target="abilities.Hypnosis" relationship="CREATE">
+      <point x="46.5003968507076" y="-13.999557643511707" />
+      <point x="1442.313" y="574.0" />
+      <point x="1324.313" y="574.0" />
+      <point x="1324.313" y="802.059" />
+      <point x="1712.787" y="802.059" />
+      <point x="1712.787" y="317.182" />
+      <point x="124.49979233777299" y="-3.141088830602712E-4" />
+    </edge>
+    <edge source="App" target="pokemons.Gallade" relationship="CREATE">
+      <point x="-15.0" y="31.5" />
+      <point x="245.47962516353067" y="832.059" />
+      <point x="1395.8126031492925" y="832.059" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="App" target="pokemons.Ralts" relationship="CREATE">
+      <point x="82.0" y="15.0" />
+      <point x="1267.5" y="768.0585408218591" />
+      <point x="28.329248449301872" y="14.0" />
+    </edge>
+    <edge source="pokemons.Maractus" target="abilities.EnergyBall" relationship="CREATE">
+      <point x="14.999999999999943" y="14.0" />
+      <point x="778.7446164710182" y="599.0" />
+      <point x="-124.5" y="0.7737587904907741" />
+    </edge>
+    <edge source="pokemons.Kirlia" target="abilities.DazzlingGleam" relationship="CREATE">
+      <point x="-1.1673299559333827E-4" y="14.000411748559088" />
+      <point x="1341.196" y="548.0" />
+      <point x="1417.696" y="548.0" />
+      <point x="1417.696" y="431.877" />
+      <point x="1614.74" y="431.877" />
+      <point x="1614.74" y="18.393" />
+      <point x="83.50012344048355" y="2.699553802685273E-4" />
+    </edge>
+    <edge source="pokemons.Mantyke" target="abilities.Headbutt" relationship="CREATE">
+      <point x="2.0422116871543494E-4" y="-13.999881298183027" />
+      <point x="145.503" y="470.177" />
+      <point x="206.0" y="470.177" />
+      <point x="206.0" y="282.5" />
+      <point x="-124.49961163574758" y="28.714265155353104" />
+    </edge>
+    <edge source="pokemons.Kirlia" target="abilities.Hypnosis" relationship="CREATE">
+      <point x="14.999883267004407" y="14.000411748559088" />
+      <point x="1356.196" y="574.0" />
+      <point x="1324.313" y="574.0" />
+      <point x="1324.313" y="802.059" />
+      <point x="1712.787" y="802.059" />
+      <point x="1712.787" y="317.182" />
+      <point x="124.49979233777299" y="-3.141088830602712E-4" />
+    </edge>
+    <edge source="pokemons.Mantine" target="abilities.Headbutt" relationship="CREATE">
+      <point x="55.99952631926031" y="-1.856854990171314" />
+      <point x="419.01" y="634.226" />
+      <point x="419.01" y="310.817" />
+      <point x="206.0" y="310.817" />
+      <point x="206.0" y="282.5" />
+      <point x="-124.49961163574758" y="28.714265155353104" />
+    </edge>
+    <edge source="pokemons.Kirlia" target="pokemons.Ralts" relationship="GENERALIZATION">
+      <point x="-44.0" y="-6.453325459604514" />
+      <point x="1216.808379387093" y="491.5712627918364" />
+      <point x="-22.362372163605073" y="14.0" />
+    </edge>
+    <edge source="App" target="pokemons.Mantine" relationship="CREATE">
+      <point x="-36.61615148279098" y="-31.5" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="App" target="pokemons.Kirlia" relationship="CREATE">
+      <point x="0.0" y="31.5" />
+      <point x="260.47962516353067" y="817.059" />
+      <point x="1309.313" y="817.059" />
+      <point x="-31.883116732995404" y="14.000000000000057" />
+    </edge>
+    <edge source="pokemons.Maractus" target="abilities.CottonSpore" relationship="CREATE">
+      <point x="14.999999999999943" y="-14.0" />
+      <point x="12.83175324607572" y="43.5" />
+    </edge>
+    <edge source="pokemons.Gallade" target="pokemons.Kirlia" relationship="GENERALIZATION">
+      <point x="-23.116603149292587" y="-14.0" />
+      <point x="31.499883267004407" y="14.000000000000057" />
+    </edge>
+    <edge source="pokemons.Mantine" target="pokemons.Mantyke" relationship="GENERALIZATION">
+      <point x="-56.0" y="0.0" />
+      <point x="130.503" y="636.0828549901713" />
+      <point x="-14.999795778831299" y="14.0" />
+    </edge>
+    <edge source="pokemons.Ralts" target="abilities.DreamEater" relationship="CREATE">
+      <point x="44.00024844930192" y="1.7928389956978208E-4" />
+      <point x="1314.0" y="385.377" />
+      <point x="1314.0" y="349.177" />
+      <point x="1212.3139999999999" y="349.177" />
+      <point x="-4.094024648111372E-4" y="67.99954457267472" />
+    </edge>
+    <edge source="pokemons.Gallade" target="abilities.DazzlingGleam" relationship="CREATE">
+      <point x="-8.116603149292587" y="-13.999557643511707" />
+      <point x="1387.696" y="548.0" />
+      <point x="1417.696" y="548.0" />
+      <point x="1417.696" y="431.877" />
+      <point x="1614.74" y="431.877" />
+      <point x="1614.74" y="18.393" />
+      <point x="83.50012344048355" y="2.699553802685273E-4" />
+    </edge>
+    <edge source="pokemons.Mantine" target="abilities.Haze" relationship="CREATE">
+      <point x="-50.36347368073969" y="-13.999854990171343" />
+      <point x="173.5" y="584.0" />
+      <point x="41.702" y="584.0" />
+      <point x="2.849219316090057E-4" y="55.49968687830892" />
+    </edge>
+    <edge source="pokemons.Mantine" target="abilities.BulletSeed" relationship="CREATE">
+      <point x="32.146521135136965" y="-14.0" />
+      <point x="-69.0" y="31.5" />
+    </edge>
+    <edge source="pokemons.Gallade" target="abilities.DreamEater" relationship="CREATE">
+      <point x="6.883396850707413" y="-13.999557643511707" />
+      <point x="1402.696" y="378.182" />
+      <point x="1314.0" y="378.182" />
+      <point x="1314.0" y="349.177" />
+      <point x="1212.3139999999999" y="349.177" />
+      <point x="-4.094024648111372E-4" y="67.99954457267472" />
+    </edge>
+    <edge source="pokemons.Mantyke" target="abilities.Confide" relationship="CREATE">
+      <point x="58.500204221168715" y="1.187018169730436E-4" />
+      <point x="227.0" y="543.266" />
+      <point x="227.0" y="438.5" />
+      <point x="183.702" y="438.5" />
+      <point x="36.96135040456673" y="43.499701949867614" />
+    </edge>
+    <edge source="pokemons.Mantine" target="abilities.Confide" relationship="CREATE">
+      <point x="-27.360473680739688" y="-13.999854990171343" />
+      <point x="196.503" y="574.766" />
+      <point x="227.0" y="574.766" />
+      <point x="227.0" y="438.5" />
+      <point x="183.702" y="438.5" />
+      <point x="36.96135040456673" y="43.499701949867614" />
+    </edge>
+    <edge source="App" target="pokemons.Maractus" relationship="CREATE">
+      <point x="82.0" y="0.0" />
+      <point x="763.7446164710182" y="753.0585408218591" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="pokemons.Kirlia" target="abilities.DreamEater" relationship="CREATE">
+      <point x="9.956883267004514" y="-13.999588251440912" />
+      <point x="1351.153" y="461.242" />
+      <point x="1314.0" y="461.242" />
+      <point x="1314.0" y="349.177" />
+      <point x="1212.3139999999999" y="349.177" />
+      <point x="-4.094024648111372E-4" y="67.99954457267472" />
+    </edge>
+    <edge source="pokemons.Mantyke" target="abilities.Haze" relationship="CREATE">
+      <point x="2.0422116871543494E-4" y="14.000118701816973" />
+      <point x="145.503" y="584.0" />
+      <point x="41.702" y="584.0" />
+      <point x="2.849219316090057E-4" y="55.49968687830892" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.579295154185022" showDependencies="true" x="825.0" y="419.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
