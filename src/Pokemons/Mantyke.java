@@ -1,4 +1,4 @@
-package Pokemons;
+package pokemons;
 
 import abilities.Confide;
 import abilities.Haze;

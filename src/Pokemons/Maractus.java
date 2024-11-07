@@ -1,4 +1,4 @@
-package Pokemons;
+package pokemons;
 
 import abilities.AerialAce;
 import abilities.CottonSpore;
@@ -7,7 +7,7 @@ import abilities.Growth;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
-public class Maractus extends Pokemon {
+final public class Maractus extends Pokemon {
     public Maractus() {
         super("Maractus", 1);
         this.setStats(75, 86, 67, 106, 67, 60);

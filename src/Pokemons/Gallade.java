@@ -1,4 +1,4 @@
-package Pokemons;
+package pokemons;
 
 import abilities.DazzlingGleam;
 import abilities.DreamEater;
@@ -6,7 +6,7 @@ import abilities.Hypnosis;
 import abilities.Thunderbolt;
 import ru.ifmo.se.pokemon.Type;
 
-public class Gallade extends Kirlia {
+final public class Gallade extends Kirlia {
     public Gallade() {
         super("Gallade", 1);
 

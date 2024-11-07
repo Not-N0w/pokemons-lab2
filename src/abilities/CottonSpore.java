@@ -5,7 +5,7 @@ import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.StatusMove;
 import ru.ifmo.se.pokemon.Type;
 
-public class CottonSpore extends StatusMove{
+final public class CottonSpore extends StatusMove{
     public CottonSpore() {
         super(Type.GRASS, 0, 100);
     }

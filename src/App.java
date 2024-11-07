@@ -1,6 +1,6 @@
+import pokemons.*;
 import ru.ifmo.se.pokemon.Battle;
 import ru.ifmo.se.pokemon.Pokemon;
-import Pokemons.*;
 
 public class App {
     public static void main(String[] args) {
