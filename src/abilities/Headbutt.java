@@ -6,7 +6,7 @@ import ru.ifmo.se.pokemon.Effect;
 import ru.ifmo.se.pokemon.PhysicalMove;
 import ru.ifmo.se.pokemon.Pokemon;
 
-final public class Headbutt extends PhysicalMove{
+public final class Headbutt extends PhysicalMove{
     public Headbutt() {
         super(Type.NORMAL, 70,100);
     }

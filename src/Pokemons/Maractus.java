@@ -7,7 +7,7 @@ import abilities.Growth;
 import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.Type;
 
-final public class Maractus extends Pokemon {
+public final class Maractus extends Pokemon {
     public Maractus() {
         super("Maractus", 1);
         this.setStats(75, 86, 67, 106, 67, 60);

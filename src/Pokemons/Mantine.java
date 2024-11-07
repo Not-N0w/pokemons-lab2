@@ -7,7 +7,7 @@ import abilities.Headbutt;
 import ru.ifmo.se.pokemon.Type;
 
 
-final public class Mantine extends Mantyke{
+public final class Mantine extends Mantyke{
     public Mantine() {
         super("Mantine", 1);
         

@@ -5,7 +5,7 @@ import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.StatusMove;
 import ru.ifmo.se.pokemon.Type;
 
-final public class Hypnosis extends StatusMove {
+public final class Hypnosis extends StatusMove {
     public Hypnosis() {
         super(Type.PSYCHIC, 0, 60);
     }

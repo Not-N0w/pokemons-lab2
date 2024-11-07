@@ -4,7 +4,7 @@ import ru.ifmo.se.pokemon.PhysicalMove;
 
 import ru.ifmo.se.pokemon.Type;
 
-final public class BulletSeed extends PhysicalMove {
+public final class BulletSeed extends PhysicalMove {
     public BulletSeed() {
         super(Type.GRASS, 25, 100, 0, 2 + (int)Math.round(Math.random()*3));
     }

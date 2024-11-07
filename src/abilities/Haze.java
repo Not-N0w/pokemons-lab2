@@ -4,7 +4,7 @@ import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.StatusMove;
 import ru.ifmo.se.pokemon.Type;
 
-final public class Haze extends StatusMove {
+public final class Haze extends StatusMove {
     public Haze() {
         super(Type.ICE, 0, 100);
     }

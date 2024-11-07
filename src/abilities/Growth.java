@@ -5,7 +5,7 @@ import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.StatusMove;
 import ru.ifmo.se.pokemon.Type;
 
-final public class Growth extends StatusMove {
+public final class Growth extends StatusMove {
     public Growth() {
         super(Type.NORMAL, 0, 100);
     }

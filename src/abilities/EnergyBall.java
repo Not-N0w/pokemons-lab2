@@ -5,7 +5,7 @@ import ru.ifmo.se.pokemon.SpecialMove;
 import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.Type;
 
-final public class EnergyBall extends SpecialMove {
+public final class EnergyBall extends SpecialMove {
     public EnergyBall() {
         super(Type.GRASS, 90, 100);
     }

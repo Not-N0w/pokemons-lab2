@@ -6,7 +6,7 @@ import abilities.Hypnosis;
 import abilities.Thunderbolt;
 import ru.ifmo.se.pokemon.Type;
 
-final public class Gallade extends Kirlia {
+public final class Gallade extends Kirlia {
     public Gallade() {
         super("Gallade", 1);
 

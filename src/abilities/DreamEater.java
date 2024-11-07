@@ -6,7 +6,7 @@ import ru.ifmo.se.pokemon.Stat;
 import ru.ifmo.se.pokemon.Status;
 import ru.ifmo.se.pokemon.Type;
 
-final public class DreamEater extends SpecialMove {
+public final class DreamEater extends SpecialMove {
     private int stolen_hp = 0;
 
     public DreamEater() {

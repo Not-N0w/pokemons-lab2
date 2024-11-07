@@ -3,7 +3,7 @@ package abilities;
 import ru.ifmo.se.pokemon.PhysicalMove;
 import ru.ifmo.se.pokemon.Type;
 
-final public class AerialAce extends PhysicalMove {
+public final class AerialAce extends PhysicalMove {
     public AerialAce() {
         super(Type.FLYING, 60, 100);
     }

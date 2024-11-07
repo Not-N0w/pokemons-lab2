@@ -5,7 +5,7 @@ import ru.ifmo.se.pokemon.Pokemon;
 import ru.ifmo.se.pokemon.SpecialMove;
 import ru.ifmo.se.pokemon.Type;
 
-final public class Thunderbolt extends SpecialMove{
+public final class Thunderbolt extends SpecialMove{
     public Thunderbolt() {
         super(Type.ELECTRIC, 90, 100);
     }
